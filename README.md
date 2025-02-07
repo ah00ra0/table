@@ -65,3 +65,23 @@ print(response.choices[0].text.strip())
 اگر به کد بیشتری نیاز دارید یا سوالی داشتید، من اینجام که کمک کنم!
 
 
+
+
+
+import openai
+
+# Replace with your API key
+openai.api_key = "your-api-key"
+
+# Send a request to the GPT-3 model
+response = openai.Completion.create(
+  engine="text-davinci-003",  # You can use other models as well
+  prompt="Hello, how can I assist you today?",
+  max_tokens=100
+)
+
+# Print the model's response
+print(response.choices[0].text.strip())
+
+
+
