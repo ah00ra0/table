@@ -7,3 +7,16 @@ https://github.com/Armin-Abdollahi/Brain-Tumor-Diagnosis/blob/main/Brain_Tumor_D
 https://github.com/sanidhyy/apple-clone
 https://github.com/junhoyeo/iphone
 https://github.com/omunite215/Project_3DPortfolio
+
+apple
+ # 👇️ if you use npm
+npm install
+npm install vite
+
+npm run dev
+
+# 👇️ if you use yarn
+yarn install
+yarn add vite
+
+yarn dev
