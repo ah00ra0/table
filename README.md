@@ -12,7 +12,7 @@ apple
  # 👇️ if you use npm
 npm install
 npm install vite
-
+1
 npm run dev
 
 # 👇️ if you use yarn
