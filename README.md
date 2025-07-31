@@ -50,3 +50,7 @@ begin
   WizardForm.WelcomeLabel2.Caption := 'این مراحل به شما کمک می‌کند تا فایل را در محل دلخواه کپی کنید.';
 end;
 
+
+
+
+test
