@@ -55,6 +55,7 @@ test2
 TEST3
 test
 IN BRAY TEXT TESST AST
+<meta property="og:image" content="https://yourgithubrepo.com/path/to/image.jpg">
 
 
 
