@@ -108,3 +108,6 @@ mkdir -p ~/.buildozer/android/platform/sdk/cmdline-tools
 
 unzip ~/commandlinetools.zip -d ~/.buildozer/android/platform/sdk/cmdline-tools
 
+
+
+commandlinetools-linux-6514223_latest.Igj78LaW.zip.part
