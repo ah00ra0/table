@@ -99,6 +99,7 @@ Command 'pyhton3.11' not found, did you mean:
 Try: sudo apt install <deb name>
 #ششنشنت
 
+(venv) ahoora@ahoora001:~/Desktop/a/venv/bin$ buildozer -v android debug
 # Check configuration tokens
 # Ensure build layout
 # Check configuration tokens
@@ -115,5 +116,43 @@ Try: sudo apt install <deb name>
 # Run ['git', 'clone', '-b', 'master', '--single-branch', 'https://github.com/kivy/python-for-android.git', 'python-for-android']
 # Cwd /home/ahoora/Desktop/a/venv/bin/.buildozer/android/platform
 Cloning into 'python-for-android'...
+# Run ['/home/ahoora/Desktop/a/venv/bin/python3.11', '-m', 'pip', 'install', '-q', 'appdirs', 'colorama>=0.3.3', 'jinja2', 'sh>=1.10, <2.0; sys_platform!="win32"', 'build', 'toml', 'packaging', 'setuptools']
+# Cwd None
 
+[notice] A new release of pip is available: 24.0 -> 25.3
+[notice] To update, run: pip install --upgrade pip
+# Android ANT is missing, downloading
+# Downloading https://archive.apache.org/dist/ant/binaries/apache-ant-1.9.4-bin.tar.gz
+# Run ['tar', 'xzf', 'apache-ant-1.9.4-bin.tar.gz']
+# Cwd /home/ahoora/.buildozer/android/platform/apache-ant-1.9.4
+# Apache ANT installation done.
+# Android SDK is missing, downloading
+# Downloading https://dl.google.com/android/repository/commandlinetools-linux-6514223_latest.zip
+Traceback (most recent call last):
+  File "/home/ahoora/Desktop/a/venv/bin/buildozer", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/ahoora/Desktop/a/venv/lib/python3.11/site-packages/buildozer/scripts/client.py", line 13, in main
+    Buildozer().run_command(sys.argv[1:])
+  File "/home/ahoora/Desktop/a/venv/lib/python3.11/site-packages/buildozer/__init__.py", line 1024, in run_command
+    self.target.run_commands(args)
+  File "/home/ahoora/Desktop/a/venv/lib/python3.11/site-packages/buildozer/target.py", line 93, in run_commands
+    func(args)
+  File "/home/ahoora/Desktop/a/venv/lib/python3.11/site-packages/buildozer/target.py", line 103, in cmd_debug
+    self.buildozer.prepare_for_build()
+  File "/home/ahoora/Desktop/a/venv/lib/python3.11/site-packages/buildozer/__init__.py", line 172, in prepare_for_build
+    self.target.install_platform()
+  File "/home/ahoora/Desktop/a/venv/lib/python3.11/site-packages/buildozer/targets/android.py", line 614, in install_platform
+    self._install_android_sdk()
+  File "/home/ahoora/Desktop/a/venv/lib/python3.11/site-packages/buildozer/targets/android.py", line 376, in _install_android_sdk
+    self.buildozer.download(url,
+  File "/home/ahoora/Desktop/a/venv/lib/python3.11/site-packages/buildozer/__init__.py", line 658, in download
+    urlretrieve(url, filename, report_hook)
+  File "/usr/local/lib/python3.11/urllib/request.py", line 1848, in retrieve
+    block = fp.read(bs)
+            ^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/tempfile.py", line 500, in func_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+ValueError: read of closed file
 
