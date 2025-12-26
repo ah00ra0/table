@@ -1,4 +1,11 @@
-mv ~/Downloads/commandlinetools-linux ~/. 
+(venv) ahoora@ahoora001:~$ unzip ~/commandlinetools.zip -d ~/.buildozer/android/platform/sdk/cmdline-tools
+Archive:  /home/ahoora/commandlinetools.zip
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of /home/ahoora/commandlinetools.zip or
+        /home/ahoora/commandlinetools.zip.zip, and cannot find /home/ahoora/commandlinetools.zip.ZIP, period.
 
 
 
