@@ -97,5 +97,19 @@ bin/hiapp-debug.apk
 Command 'pyhton3.11' not found, did you mean:
   command 'python3.11' from deb python3.11 (3.11.7-2)
 Try: sudo apt install <deb name>
+#ششنشنت
+
+
+python3.11 -m venv venv
+
+source venv/bin/activate
+
+
+pip install --upgrade pip
+
+pip install kivy buildozer
+
+
+
 
 
