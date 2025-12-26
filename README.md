@@ -94,11 +94,8 @@ buildozer -v android debug
 
 bin/hiapp-debug.apk
 
+Command 'pyhton3.11' not found, did you mean:
+  command 'python3.11' from deb python3.11 (3.11.7-2)
+Try: sudo apt install <deb name>
 
-tar -xvf Python-3.11.14.tgz
-cd Python-3.11.14
-
-./configure --enable-optimizations
-make -j$(nproc)
-sudo make altinstall
 
