@@ -99,26 +99,21 @@ Command 'pyhton3.11' not found, did you mean:
 Try: sudo apt install <deb name>
 #ششنشنت
 
-(venv) ahoora@ahoora001:~/Desktop/a/venv/bin$ buildozer -v android debug
 # Check configuration tokens
 # Ensure build layout
-# Create directory /home/ahoora/.buildozer
-# Create directory /home/ahoora/.buildozer/cache
-# Create directory /home/ahoora/Desktop/a/venv/bin/.buildozer
-# Create directory /home/ahoora/Desktop/a/venv/bin/bin
-# Create directory /home/ahoora/Desktop/a/venv/bin/.buildozer/applibs
-# Create directory /home/ahoora/.buildozer/android/platform/android/platform
-# Create directory /home/ahoora/Desktop/a/venv/bin/.buildozer/android/platform
-# Create directory /home/ahoora/Desktop/a/venv/bin/.buildozer/android/app
 # Check configuration tokens
 # Preparing build
 # Check requirements for android
 # Search for Git (git)
 #  -> found at /usr/bin/git
 # Search for Cython (cython)
-# Cython (cython) not found, please install it.
-
-
-
+# Search for Java compiler (javac)
+#  -> found at /usr/lib/jvm/java-17-openjdk-amd64/bin/javac
+# Search for Java keytool (keytool)
+#  -> found at /usr/lib/jvm/java-17-openjdk-amd64/bin/keytool
+# Install platform
+# Run ['git', 'clone', '-b', 'master', '--single-branch', 'https://github.com/kivy/python-for-android.git', 'python-for-android']
+# Cwd /home/ahoora/Desktop/a/venv/bin/.buildozer/android/platform
+Cloning into 'python-for-android'...
 
 
