@@ -1,3 +1,7 @@
+ERROR: Can not perform a '--user' install. User site-packages are not visible in this virtualenv.
+
+
+
 https://github.com/kanishksh4rma/Brain_Tumour_detection_using_MRI_Scans/blob/main/Brain_Tumour_Detection_using_MRI_scans.ipynb
 
 https://github.com/Armin-Abdollahi/Brain-Tumor-Diagnosis/blob/main/Brain_Tumor_Diagnosis.ipynb
