@@ -95,9 +95,10 @@ buildozer -v android debug
 bin/hiapp-debug.apk
 
 
- Reading package lists... Done
-Building dependency tree... Done
-Reading state information... Done
-E: Unable to locate package pyhto3.11
-E: Couldn't find any package by glob 'pyhto3.11'
+tar -xvf Python-3.11.14.tgz
+cd Python-3.11.14
+
+./configure --enable-optimizations
+make -j$(nproc)
+sudo make altinstall
 
