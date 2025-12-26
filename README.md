@@ -1,4 +1,5 @@
-ERROR: Can not perform a '--user' install. User site-packages are not visible in this virtualenv.
+mv ~/Downloads/commandlinetools-linux ~/. 
+
 
 
 
