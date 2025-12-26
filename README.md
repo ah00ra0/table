@@ -95,61 +95,9 @@ buildozer -v android debug
 bin/hiapp-debug.apk
 
 
-  Profiles
-
-  You can extend section / key with a profile
-   For example, you want to deploy a demo version of your application without
-    HD content. You could first change the title to add "(demo)" in the name
-    and extend the excluded directories to remove the HD content.
-
-[app@demo]
-title = My Application (demo)
-#
-#[app:source.exclude_patterns@demo]
-#images/hd/*
-#
-#    Then, invoke the command line with the "demo" profile:
-#
-#buildozer --profile demo android debug
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Check configuration tokens
-Traceback (most recent call last):
-  File "/home/ahoora/Desktop/a/venv/bin/buildozer", line 8, in <module>
-    sys.exit(main())
-             ^^^^^^
-  File "/home/ahoora/Desktop/a/venv/lib/python3.12/site-packages/buildozer/scripts/client.py", line 13, in main
-    Buildozer().run_command(sys.argv[1:])
-  File "/home/ahoora/Desktop/a/venv/lib/python3.12/site-packages/buildozer/__init__.py", line 1018, in run_command
-    targets = [x[0] for x in self.targets()]
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ahoora/Desktop/a/venv/lib/python3.12/site-packages/buildozer/__init__.py", line 910, in targets
-    m = __import__('buildozer.targets.{0}'.format(target),
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/ahoora/Desktop/a/venv/lib/python3.12/site-packages/buildozer/targets/android.py", line 40, in <module>
-    from distutils.version import LooseVersion
-ModuleNotFoundError: No module named 'distutils'
-
-
+ Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package pyhto3.11
+E: Couldn't find any package by glob 'pyhto3.11'
 
