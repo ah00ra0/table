@@ -57,6 +57,41 @@ test
 IN BRAY TEXT TESST AST
 <meta property="og:image" content="https://yourgithubrepo.com/path/to/image.jpg">
 
+sudo apt update
+sudo apt install -y python3 python3-pip git zip unzip openjdk-17-jdk \
+build-essential ccache libffi-dev libssl-dev
+
+
+pip3 install --user buildozer
+export PATH=$PATH:~/.local/bin
+
+mkdir hi_app
+cd hi_app
+
+from kivy.app import App
+from kivy.uix.label import Label
+
+class HiApp(App):
+    def build(self):
+        return Label(text='hi', font_size=50)
+
+if __name__ == '__main__':
+    HiApp().run()
+
+buildozer init
+
+
+title = Hi App
+package.name = hiapp
+package.domain = org.example
+
+
+buildozer -v android debug
+
+bin/hiapp-debug.apk
+
+buildozer android deploy run
+
 
 
 
